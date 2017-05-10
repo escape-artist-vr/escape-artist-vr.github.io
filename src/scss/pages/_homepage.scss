@@ -1,0 +1,25 @@
+.body--homepage {
+  background-color: -color(charcoal);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  &__heading {
+    @include hd-a();
+
+    margin-bottom: 2rem;
+  }
+
+  &__copy {
+    @include copy-a();
+
+    margin-bottom: 2rem;
+  }
+}

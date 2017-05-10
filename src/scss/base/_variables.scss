@@ -1,0 +1,30 @@
+$colors: (
+  black: #000000,
+  charcoal: #1d1f20,
+  white: #ffffff
+);
+
+$breakpoints: (
+  mobile: 780px,
+  tablet: 900px,
+  desktop: 1024px,
+  large-desktop: 1160px,
+  hd: 1366px,
+  super-hd: 1600px
+);
+
+$layers: (
+  footer,
+  under-content,
+  content,
+  over-content,
+  button,
+  overlay,
+  modal,
+  header,
+  splash,
+  error
+);
+
+$hover-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+$border-radius: 3px;
