@@ -213,7 +213,8 @@ body {
     border: none;
     padding: 1rem 0;
     border-bottom: 2px solid black;
-    background-color: transparent; }
+    background-color: transparent;
+    border-radius: 0; }
     @media (min-width: 600px) {
       .mc-field-group input {
         font-size: 1.8rem; } }
@@ -239,6 +240,7 @@ body {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  border-radius: 0;
   height: 5.2rem; }
   @media (min-width: 600px) {
     .form__button {
@@ -268,6 +270,10 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
     width: 95%; }
+    @media (max-width: 1199px) {
+      .section:nth-child(1) {
+        padding-left: 4rem;
+        padding-right: 4rem; } }
     @media (min-width: 600px) {
       .section:nth-child(1) {
         width: 75%; } }
@@ -282,13 +288,14 @@ body {
     @media (min-width: 900px) {
       .section__inner {
         width: 75%; } }
-    @media (max-width: 1199px) {
-      .section__inner {
-        padding-left: 4rem;
-        padding-right: 4rem; } }
   .section__escaper {
     position: absolute;
     bottom: 0;
-    left: -5rem;
-    width: 10rem;
-    height: 10rem; }
+    width: 6rem;
+    height: 6rem;
+    left: -3rem; }
+    @media (min-width: 600px) {
+      .section__escaper {
+        width: 10rem;
+        height: 10rem;
+        left: -5rem; } }
